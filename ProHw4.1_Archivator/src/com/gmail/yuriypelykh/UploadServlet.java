@@ -83,9 +83,14 @@ public class UploadServlet extends HttpServlet {
     }
 
     public String archiveUploadedFiles(Map filesMap, String zipName, String uplDir) throws IOException {
-        String archName = zipName + random.nextInt() + ".zip";
-        String archPath = uplDir + "/" + archName;
-        ZipOutputStream zout = new ZipOutputStream(new FileOutputStream(archPath));
+        String archName = "";
+        File newZip = null;
+        do {
+            archName = zipName + random.nextInt() + ".zip";
+            newZip = new File(uplDir + "/" + archName);
+        } while (newZip.exists());
+        
+        ZipOutputStream zout = new ZipOutputStream(new FileOutputStream(newZip.getAbsolutePath()));
         Set<Map.Entry<String,String>> mapSet = filesMap.entrySet();
         for (Map.Entry<String,String> file: mapSet) {
             try(FileInputStream fis= new FileInputStream(file.getKey())){

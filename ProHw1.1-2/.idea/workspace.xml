@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0871ebc1-a0e9-456f-81e1-a0183368ddab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProHw4.1_Archivator/src/com/gmail/yuriypelykh/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProHw4.1_Archivator/src/com/gmail/yuriypelykh/UploadServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +240,7 @@
       <workItem from="1586337913607" duration="143000" />
       <workItem from="1586434669273" duration="347000" />
       <workItem from="1587480729575" duration="3648000" />
-      <workItem from="1587638696651" duration="905000" />
+      <workItem from="1587638696651" duration="1503000" />
     </task>
     <servers />
   </component>
