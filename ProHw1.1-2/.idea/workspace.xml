@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0871ebc1-a0e9-456f-81e1-a0183368ddab" name="Default Changelist" comment="" />
+    <list default="true" id="0871ebc1-a0e9-456f-81e1-a0183368ddab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +32,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1aB4l1cGwsqUvbVquzMXGMSv2wS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProHw2.1_Annotations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaPRO_Less/Less5ex1_SQL/jdbc11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -231,6 +235,11 @@
       <updated>1586195800945</updated>
       <workItem from="1586195802700" duration="5327000" />
       <workItem from="1586266579456" duration="786000" />
+      <workItem from="1586284154579" duration="93000" />
+      <workItem from="1586337913607" duration="143000" />
+      <workItem from="1586434669273" duration="347000" />
+      <workItem from="1587480729575" duration="3648000" />
+      <workItem from="1587638696651" duration="905000" />
     </task>
     <servers />
   </component>
@@ -246,14 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1586195829681" />
-    <state x="414" y="175" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586202379050">
+    <state x="414" y="175" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586338051540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586202379050" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1586267362852">
+    <state x="414" y="175" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586338051540" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1587489262205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586267362852" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587489262205" />
     <state width="912" height="266" key="GridCell.Tab.0.bottom" timestamp="1586202936346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -306,5 +315,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="545" y="123" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586196147998" />
+    <state x="596" y="214" key="new project wizard" timestamp="1587488778768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="596" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587488778768" />
   </component>
 </project>

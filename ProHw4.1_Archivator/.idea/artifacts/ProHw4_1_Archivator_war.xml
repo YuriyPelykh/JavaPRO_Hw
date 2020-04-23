@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ProHw4.1_Archivator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ProHw4.1_Archivator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ProHw4.1_Archivator.war">
+      <element id="artifact" artifact-name="ProHw4.1_Archivator:war exploded" />
+    </root>
+  </artifact>
+</component>
