@@ -13,16 +13,12 @@ public class Main {
     public static void main(String[] args) throws SQLException, NoSuchFieldException {
         Scanner sc = new Scanner(System.in);
 
-        ConnectionFactory factory = new ConnectionFactory(
-                dbConnection, dbUser, dbPassword
-        );
+        ConnectionFactory factory = new ConnectionFactory(dbConnection, dbUser, dbPassword);
 
         Connection conn = factory.getConnection();
         try {
             FlatDAOExtension dao = new FlatDAOExtension(conn, "flats");
-
             dao.init();
-
             Flat flat1 = new Flat("Solomianskyi", "Shootova 9a", 35.3, 1, 55000);
             dao.add(flat1);
             Flat flat2 = new Flat("Golosiivskyi", "Vasylkivska 25", 120.5, 4, 255000);
