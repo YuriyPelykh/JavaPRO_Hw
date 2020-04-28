@@ -89,7 +89,7 @@ public class UploadServlet extends HttpServlet {
             archName = zipName + random.nextInt() + ".zip";
             newZip = new File(uplDir + "/" + archName);
         } while (newZip.exists());
-        
+
         ZipOutputStream zout = new ZipOutputStream(new FileOutputStream(newZip.getAbsolutePath()));
         Set<Map.Entry<String,String>> mapSet = filesMap.entrySet();
         for (Map.Entry<String,String> file: mapSet) {
