@@ -208,26 +208,5 @@ public abstract class AbstractDAO<K, T> {
             throw new RuntimeException(ex);
         }
     }
-
-    public int getId(T t) {
-        Field fid = null;
-        int id = 0;
-        try {
-            Field[] fields = t.getClass().getDeclaredFields();
-
-            for (Field f : fields) {
-                if (f.isAnnotationPresent(Id.class)) {
-                    fid = f;
-                    fid.setAccessible(true);
-                    id = (int) fid.get(t);
-                    break;
-                }
-            }
-            if (fid == null)
-                throw new RuntimeException("No Id field");
-        } catch (Exception ex) {
-            throw new RuntimeException(ex);
-        }
-        return id;
-    }
+    
 }
