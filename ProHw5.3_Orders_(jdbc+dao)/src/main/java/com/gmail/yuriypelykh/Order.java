@@ -21,7 +21,6 @@ public class Order {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date d = new Date();
         this.date = dateFormat.format(d);
-        //System.out.println(date.toString());
         this.clientID = clientID;
         this.productID = productID;
         this.quantity = quantity;
@@ -31,7 +30,7 @@ public class Order {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(Object date) {
         this.date = date;
     }
 
