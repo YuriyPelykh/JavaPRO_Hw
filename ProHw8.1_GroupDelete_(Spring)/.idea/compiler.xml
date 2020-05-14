@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProHw8.1_GroupDelete_(Spring)" />
+        <module name="spring2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ProHw8.1_GroupDelete_(Spring)" target="1.8" />
+      <module name="spring2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
