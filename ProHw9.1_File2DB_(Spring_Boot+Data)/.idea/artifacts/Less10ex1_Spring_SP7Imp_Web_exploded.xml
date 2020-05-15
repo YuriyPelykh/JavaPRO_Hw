@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Less10ex1_Spring_SP7Imp:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Less10ex1_Spring_SP7Imp_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Less10ex1_Spring_SP7Imp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="Less10ex1_Spring_SP7Imp/web/Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
